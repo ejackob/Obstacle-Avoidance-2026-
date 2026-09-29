@@ -1,16 +1,16 @@
-# Obstacle Avoidance
-Obstacle Avoidance is a continued Senior Design 2024-2025 capstone project. This application is designed to assist users, particularly those with visual impairments, in detecting obstacles in their environment using the device's camera. The app provides real-time feedback on detected obstacles and offers customizable settings for a personalized experience. We're currenlty implementing LiDar capabilities to work in tandem with various YOLO models for a measured and accurate reading of obstacles and their distances to users.
+Obstacle Avoidance is a continuation of a 2025–2026 Senior Design capstone project. This application is designed to assist users—particularly those with visual impairments—in navigating their environment safely. Utilizing the device's camera and LiDAR sensor, the app provides real-time detection to localize and classify obstacles, delivering immediate audio feedback to the user. 
+Currently, the application combines LiDAR capabilities with various YOLO models to provide highly accurate, measured distance readings, giving users a comprehensive sense of their physical surroundings.
 
-Current working demo can be found under the main branch. Any other depracted branches are saved as a reference to previous teams work.
+Hardware & Installation
+• Compatibility: Optimized for iPhone 12 Pro and newer models equipped with a triple-camera system and a LiDAR sensor.
+• Offline Functionality: Runs entirely on-device with no internet connection required.
+• Deployment: The app will automatically build and install on your connected iOS device when running the Xcode project (.xcodeproj) file.
 
-### Current Authors:
-Darien Aranda, Jacob Fernandez, Carlos Breach, & Austin Lim
+Current Authors
+Elbron Jackob, Dinh Truong, Connor Jones, Bilal Adam
 
-### Previous Authors:
-Scott Schnieders, Avery Leininger, Kenny Collins, Jacob Weil, Alizea Hinz, Rakan Alrasheed, Cassidy Spencer, Olivia Nolan Shafer, Alexander Guerrero, Aidan Pearce 
+Previous Authors
+Scott Schnieders, Avery Leininger, Kenny Collins, Jacob Weil, Alizea Hinz, Rakan Alrasheed, Cassidy Spencer, Olivia Nolan Shafer, Alexander Guerrero, Aidan Pearce
 
-### Last Modified: 
-5/8/2025
-
-### Database Set Up:
-This application should run on its own with one catch. When cloning this repository if you want the application to run you need to independently set up a Supabase database. There are further instrucitons contained within the Database.swift file located under the Data folder. You need to create a Supabase database otherwise the app won't work. Follow the instructions exaclty in database and it should work. As a reminder make sure every variable and the table name are exactly the same as mentioned within the Struct.swift file. You will also need to create RLS policies for insert, select, read and delete. You can give the lines as 'true' for something not fully functioning to just test out.  
+Last Modified
+05/02/2026
